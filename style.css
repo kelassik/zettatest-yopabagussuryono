@@ -1,0 +1,181 @@
+*{
+
+    box-sizing: border-box;
+
+}
+
+.container{
+    padding-inline: 10px;
+}
+
+.column {
+    width: 33.33%;
+    padding: 10px;
+    min-height: 350px;
+    padding: 10px;
+    align-items: center;
+    margin: auto;
+    margin-top: 60px;
+    background: whitesmoke;
+
+}
+
+.card-comment{
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 0px;
+}
+
+.profile-picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.my-post {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.profile {
+    display: flex;   
+
+}
+
+.name-profile {
+    display: flex;
+    margin-left: 10px;
+}
+
+.time-post{
+    margin-left: 70px;
+    margin-top: -40px;
+    
+}
+
+.picture-post {
+    width: 430px;
+    height: 200;
+    margin-left: 10px;
+}
+
+.icon-like {
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.format-like{
+    display: flex;
+    
+}
+
+.icon-share {
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.format-share {
+    display: flex;
+    justify-content: space-between;
+}
+
+.format-icon {
+    display: flex;
+}
+
+.body-comment {
+    background-color: whitesmoke;
+    margin: 0px;
+    
+}
+
+.jumlah-comment {
+    margin-left: 10px;
+}
+
+.icon-collapse-comment {
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.collapse-comment {
+    display: flex;
+}
+
+.comment-profile-picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 80%;
+    margin-left: 10px;
+}
+
+.comment-people {
+    display: flex;
+}
+
+.name-and-time-comment {
+    margin-left: 10px;
+}
+
+.name-comment {
+    margin-top: -10px;
+    margin-left: 5px;
+
+}
+
+.comment {
+    margin-top: -15px;
+    margin-left: 5px;
+}
+
+.format-reply {
+    display: flex;
+    margin-left: 10px;
+}
+
+.icon-flag {
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.new-profile-comment {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.space-column-reply {
+    display: flex;
+}
+
+.button{
+    margin-left: 60px;
+    margin-bottom: 5px;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.button1 {background-color: #008CBA;}
